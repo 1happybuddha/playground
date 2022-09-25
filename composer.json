@@ -1,0 +1,18 @@
+{
+  "name": "1happybuddha/blockfrost-php-playground",
+  "type": "library",
+  "description": "PHP playground for Blockfrost",
+  "license": "MIT",
+  "keywords": ["blockfrost", "cardano"],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/1happybuddha/blockfrost-php.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "blockfrost/blockfrost-php": "dev-master"
+  },
+  "minimum-stability" : "dev"
+}
